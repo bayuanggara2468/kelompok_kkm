@@ -1,0 +1,770 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
+}
+
+.img {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("../../assets/images/3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+.navbar.scrolling-active {
+	background-color: #2d4356c8;
+}
+
+.navbar .box-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+.navbar .box-navbar .navigation ul {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.navbar .brand img {
+	width: 110px;
+}
+
+.navbar .container .box-navbar .navigation ul li {
+	list-style-type: none;
+}
+
+.navbar .container .box-navbar .navigation ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+
+.navbar .container .navigation ul li:nth-child(1) a:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	color: #f7e987;
+}
+
+.navbar .container .navigation ul li:nth-child(2) a:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	color: #f7e987;
+}
+
+.navbar .container .navigation ul li:nth-child(3) a:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	color: #f7e987;
+}
+
+.navbar .container .navigation ul li:nth-child(4) a:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	color: #f7e987;
+}
+
+.navbar .container .navigation ul li:nth-child(5) a:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	color: #f7e987;
+}
+
+.navbar .container .navigation ul li:nth-child(6) a {
+	padding: 10px 25px 10px 25px;
+	border: none;
+	background-color: #f7e987;
+	font-weight: bold;
+	color: black;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
+}
+
+.navbar .container .navigation ul li:nth-child(6) a:hover {
+	background-color: #f7ea87b5;
+}
+
+.container {
+	width: 90%;
+	margin-inline: auto;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+
+.hero {
+	height: 100vh;
+}
+
+.about {
+	height: 100vh;
+}
+
+.navbar .box-navbar i.ri-menu-line {
+	display: none;
+}
+
+.navbar .box-navbar i.ri-close-line {
+	display: none;
+}
+
+/* box-HERO */
+.box-hero {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	place-items: center;
+	color: white;
+}
+
+.box-hero .containerr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+}
+
+.box-hero .box h1 {
+	padding-bottom: 50px;
+	font-size: 50px;
+}
+
+.box-hero .box h4 {
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.box-hero .box a {
+	padding: 10px 25px 10px 25px;
+	border: none;
+	background-color: #f7e987;
+	font-weight: bold;
+	color: black;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
+}
+
+.box-hero .box a {
+	text-decoration: none;
+}
+
+.box-hero .box a:hover {
+	background-color: #f7ea87b5;
+}
+
+/* TENTANG KAMI */
+.tentang {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.tentang .container {
+	margin-top: 180px;
+	width: 70%;
+	line-height: 35px;
+}
+
+.tentang .container .box-tentang {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tentang .container .box:nth-child(1) h1 {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.tentang .container .box:nth-child(2) {
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.tentang .container .box:nth-child(3) {
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.tentang .container .box:nth-child(4) {
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.tentang .container .box:nth-child(5) {
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+/* TENTANG KAMI */
+
+/* anggota */
+
+.anggota {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.anggota .container {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+}
+.anggota .container h1 {
+	margin-bottom: 20px;
+}
+
+.anggota .container .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.anggota .container .box img {
+	width: 50%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border: 10px solid #cccccc;
+}
+
+.anggota .container .box h4 {
+	padding-top: 20px;
+}
+
+.anggota .container .box-dpl .icon {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.anggota .container .box-dpl .icon a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #333;
+	justify-content: center;
+	align-items: center;
+	line-height: 45px;
+}
+
+.anggota .container .box-dpl .icon a i {
+	align-items: center;
+	justify-content: center;
+	margin-left: 14px;
+}
+
+.anggota .box-dpl .box img {
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+.anggota .box-dpl .box p {
+	padding-bottom: 15px;
+}
+
+.anggota .box-ketua {
+	display: grid;
+	flex-direction: row;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 50px;
+}
+
+.anggota .container .box-ketua .icon {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.anggota .container .box-ketua .icon a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #333;
+	justify-content: center;
+	align-items: center;
+	line-height: 45px;
+}
+
+.anggota .container .box-ketua .icon a i {
+	align-items: center;
+	justify-content: center;
+	margin-left: 14px;
+}
+
+.anggota .box-ketua .box p {
+	padding-bottom: 15px;
+}
+
+.anggota .box-anggota {
+	display: grid;
+	place-items: center;
+}
+
+.anggota .container .box-anggota {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	align-items: center;
+	margin-top: 50px;
+}
+
+.anggota .box-anggota .box {
+	padding-bottom: 40px;
+}
+
+.anggota .container .box-anggota .icon {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.anggota .container .box-anggota .icon a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #333;
+	justify-content: center;
+	align-items: center;
+	line-height: 45px;
+}
+
+.anggota .container .box-anggota .icon a i {
+	align-items: center;
+	justify-content: center;
+	margin-left: 14px;
+}
+
+.anggota .box-anggota .box p {
+	padding-bottom: 15px;
+}
+
+/* anggota */
+
+/* TENTANG DESA */
+
+.tentang-desa {
+	width: 100%;
+	height: 100vh;
+	margin-top: 100px;
+}
+
+.tentang-desa .judul {
+	display: flex;
+	justify-content: center;
+	background-color: #f7e987;
+	padding: 15px;
+}
+
+.tentang-desa .container {
+	width: 70%;
+	margin-top: 100px;
+	height: 100vh;
+}
+.box-tentangdesa {
+	gap: 100px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-tentangdesa .text-box {
+	width: 50%;
+	line-height: 30px;
+}
+
+.box-tentangdesa .img-box {
+	width: 100%;
+}
+
+.visimisi {
+	margin-top: 40px;
+}
+
+.visimisi .box {
+	display: flex;
+	justify-content: center;
+}
+
+.visimisi .container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	height: 50%;
+}
+
+.visimisi .container .visi {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 40px;
+	margin-right: 60px;
+}
+
+.visimisi .container .visi .box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.visimisi .container .visi .box h3 {
+	padding-bottom: 15px;
+}
+
+.visimisi .container .visi .box:nth-child(2) p {
+	line-height: 40px;
+}
+
+/* TENTANG DESA */
+
+/* Program */
+.program {
+	height: 100vh;
+}
+
+/* Program */
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 1600px) {
+	.anggota .container .box-anggota {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.anggota .box-dpl .box img {
+		width: 40%;
+	}
+	.anggota .box-ketua .box img {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.anggota .container .box-anggota {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		min-height: 60vh;
+		margin-top: 20px;
+	}
+
+	.anggota .box-anggota .box img {
+		width: 40%;
+	}
+}
+
+@media screen and(min-width:990px) {
+	.container {
+		width: 80%;
+		margin-inline: auto;
+		transition: all 0.3s linear;
+		-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+		-ms-transition: all 0.3s linear;
+		-o-transition: all 0.3s linear;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.navbar .box-navbar i.ri-menu-line {
+		display: block;
+		font-size: 28px;
+	}
+
+	.navbar.navbar.scrolling-active .box-navbar i.ri-menu-line {
+		color: white;
+	}
+
+	.navbar .box-navbar .navigation {
+		top: 0;
+		right: -300px;
+		width: 240px;
+		height: 100vh;
+		position: absolute;
+		background-color: #001627;
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+	}
+
+	.navbar .box-navbar .navigation.menu-active {
+		right: 0;
+	}
+
+	.navbar .box-navbar .navigation ul {
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		padding: 50px;
+	}
+
+	.navbar .box-navbar i.ri-close-line {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: -20px;
+		transform: translateY(-50%);
+		padding: 10px;
+		border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		-ms-border-radius: 100%;
+		-o-border-radius: 100%;
+		background-color: #fff;
+		color: black;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+
+	.anggota .box-dpl .box img {
+		width: 40%;
+	}
+	.anggota .box-ketua .box img {
+		width: 50%;
+	}
+	.anggota .box-anggota .box img {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 758px) {
+	.anggota .container .box-anggota {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.anggota .box-ketua {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.anggota .box-dpl .box img {
+		width: 50%;
+	}
+	.anggota .box-ketua .box img {
+		width: 50%;
+	}
+	.anggota .box-anggota .box img {
+		width: 50%;
+	}
+
+	.anggota .box-ketua .box {
+		padding-bottom: 40px;
+	}
+
+	.anggota .box-anggota .box {
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.box-hero .box h1 {
+		font-size: 28px;
+	}
+
+	.box-hero .box h2 {
+		font-size: 22px;
+	}
+
+	.box-hero .box h4 {
+		font-size: 14px;
+	}
+
+	.box-hero .box a {
+		font-size: 12px;
+		padding: 7px 15px 7px 15px;
+	}
+
+	.navbar .box-navbar .navigation ul li a {
+		font-size: 12px;
+		padding: 7px 15px 7px 15px;
+	}
+
+	.navbar .container .box-navbar .navigation ul li:nth-child(6) a {
+		font-size: 12px;
+		padding: 7px 15px 7px 15px;
+	}
+
+	.navbar .box-navbar .navigation.menu-active {
+		width: 220px;
+	}
+
+	.navbar .brand img {
+		width: 70px;
+	}
+
+	.navbar .box-navbar i.ri-menu-line {
+		font-size: 24px;
+	}
+	.anggota .box-ketua .box p {
+		padding-bottom: 15px;
+	}
+
+	.anggota .container .box-dpl .icon a {
+		font-size: 14px;
+		line-height: 40px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.anggota .container .box-dpl .icon i {
+		margin-left: 12px;
+	}
+	.anggota .container .box-ketua .icon a {
+		font-size: 14px;
+		line-height: 40px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.anggota .container .box-ketua .icon a i {
+		margin-left: 12px;
+	}
+
+	.anggota .container .box-anggota .icon a {
+		font-size: 14px;
+		line-height: 40px;
+		width: 35px;
+		height: 35px;
+	}
+	.anggota .container .box-anggota .icon a i {
+		margin-left: 12px;
+	}
+}
+@media screen and (max-width: 475px) {
+	.box-hero .box h1 {
+		font-size: 24px;
+	}
+
+	.box-hero .box h2 {
+		font-size: 18px;
+	}
+	.box-hero .box h4 {
+		font-size: 12px;
+	}
+	.tentang .container .box:nth-child(1) h1 {
+		margin-bottom: 30px;
+		padding-bottom: 0;
+		font-size: 24px;
+	}
+
+	.tentang .container .box:nth-child(2) {
+		font-size: 14px;
+	}
+	.tentang .container .box:nth-child(3) {
+		font-size: 14px;
+	}
+	.tentang .container .box:nth-child(4) {
+		font-size: 14px;
+	}
+	.tentang .container .box:nth-child(5) {
+		font-size: 14px;
+	}
+
+	anggota .container h1 {
+		margin-bottom: 20px;
+		font-size: 24px;
+	}
+
+	.anggota .container p {
+		font-size: 14px;
+	}
+
+	.anggota .container .box-anggota .icon a {
+		line-height: 36px;
+	}
+
+	.anggota .container .box-dpl .icon a {
+		line-height: 36px;
+	}
+
+	.anggota .container .box-ketua .icon a {
+		line-height: 36px;
+	}
+
+	.anggota .container .box-dpl .icon a i {
+		margin-left: 12px;
+	}
+}
